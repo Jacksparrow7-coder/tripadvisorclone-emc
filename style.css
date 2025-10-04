@@ -585,6 +585,51 @@ max-width: 1200px;
   font-family: poppins, sans-serif;
 }
 
+/* wanderer card */
+.wanderer-container{
+  width: 75%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+.wanderer__image img{
+  max-width:400px;
+  width: 100%;
+}
+
+.wanderer__title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.wanderer__title-2{
+  text-align: center;
+  padding: 10px;
+}
+
+.wanderer__title-3 button{
+  font-family: poppins,sans-serif;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 30px;
+  background-color:#002b11;
+  color: white;
+  border: none;
+}
+
+.wanderer__title-3 button:hover{
+  cursor: pointer;
+  background-color: hsla(144, 100%, 8%, 0.9);
+}
 /* @media (max-width: 600px) {
   .welcome__title {
       font-size: 0.9rem;
