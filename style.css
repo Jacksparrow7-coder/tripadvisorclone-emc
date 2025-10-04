@@ -171,17 +171,20 @@ body {
 
 /*Welcome image*/
 .welcome-section {
-  position: relative;
-  width: 80%;
   max-width: 1200px;
+  width: 90%;
   margin: 20px auto;
+  position: relative;
 }
 
 .welcome__image {
-  width: 100%;
-  border-radius: 10px;
   display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
+
 
 .welcome__title {
   position: absolute;
@@ -258,9 +261,10 @@ body {
 
 /* visiting card */
 .visitingcard-container {
-  height: auto;
-  width: 80%;
-  margin: 10px auto;
+  max-width: 1200px;
+  width: 90%;
+  margin: 20px auto;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -361,9 +365,10 @@ body {
 }
 /* soldinner */
 .solodinner-container {
-  height: auto;
-  width: 80%;
+max-width: 1200px;
+  width: 90%;
   margin: 20px auto;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -407,14 +412,17 @@ body {
 
 /* Inspiration to get you going */
 .inspiration-container {
-  width: 100%;
+  width: 80%;
+  max-width: 1200px;
+  margin: 20px auto;
   background-color: #f7f7f7;
   padding: 20px;
   color: #002b11;
+  border-radius: 20px;
 }
 
 .inspiration__title {
-  width: 80%;
+  width: 90%;
   margin: auto;
   padding: 20px;
 }
@@ -424,12 +432,12 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
 }
 
 .inspiration__image-card {
   position: relative;
-  width: 400px;
+  width: 320px;
   cursor: pointer;
 }
 
@@ -441,7 +449,7 @@ body {
 .inspiration__image-heart {
   font-size: 1.2rem;
   top: 3%;
-  left: 87%;
+  left: 80%;
   position: absolute;
   padding: 10px;
   background-color: white;
