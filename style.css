@@ -412,17 +412,16 @@ max-width: 1200px;
 
 /* Inspiration to get you going */
 .inspiration-container {
-  width: 80%;
-  max-width: 1200px;
+  width: 100%;
+  max-width: 1600px;
   margin: 20px auto;
   background-color: #f7f7f7;
   padding: 20px;
   color: #002b11;
-  border-radius: 20px;
 }
 
 .inspiration__title {
-  width: 90%;
+  width: 75%;
   margin: auto;
   padding: 20px;
 }
@@ -437,7 +436,7 @@ max-width: 1200px;
 
 .inspiration__image-card {
   position: relative;
-  width: 320px;
+  width: 350px;
   cursor: pointer;
 }
 
@@ -535,6 +534,57 @@ max-width: 1200px;
   padding: 5px;
   font-weight: lighter;
 }
+
+/* Iconic places you need to see */
+.iconicplaces-container {
+  padding: 20px;
+}
+
+.iconicplaces__title {
+  color: #002b11;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 9%;
+}
+
+.iconicplaces__title h3 {
+  font-weight: bolder;
+  padding: 20px;
+}
+
+.iconicplaces__images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.iconicplaces__image-card {
+  position: relative;
+  width: 280px;
+  height: 300px;
+  cursor: pointer;
+}
+
+.iconicplaces__image-card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.iconicplaces__image-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  font-family: poppins, sans-serif;
+}
+
 /* @media (max-width: 600px) {
   .welcome__title {
       font-size: 0.9rem;
