@@ -266,10 +266,10 @@ body {
   margin: 20px auto;
   padding: 0;
   display: flex;
-  justify-content: center;
   align-items: center;
   background-color: #f7f7f7;
   border-radius: 20px;
+  flex-wrap: wrap;
 }
 
 .visitingcard__title img {
@@ -282,7 +282,7 @@ body {
 }
 
 .visitingcard__desc {
-  width: 100%;
+  width: 70%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -365,15 +365,15 @@ body {
 }
 /* soldinner */
 .solodinner-container {
-max-width: 1200px;
+  max-width: 1200px;
   width: 90%;
   margin: 20px auto;
   padding: 0;
   display: flex;
-  justify-content: center;
   align-items: center;
   background-color: #f7f7f7;
   border-radius: 20px;
+  flex-wrap: wrap;
 }
 
 .solodinner__title img {
@@ -386,7 +386,7 @@ max-width: 1200px;
 }
 
 .solodinner__desc {
-  width: 100%;
+  width: 70%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
