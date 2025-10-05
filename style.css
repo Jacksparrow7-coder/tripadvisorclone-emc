@@ -741,4 +741,8 @@ body {
   .welcome__button {
       display: none;
   }
+  ..nav-container{
+    width: 100%;
+    overflow: hidden;
+  }
 }
