@@ -84,8 +84,8 @@ body {
   background-color: #002b11;
   color: white;
   border: none;
-  border-radius: 15px;
-  padding: 10px;
+  border-radius: 20px;
+  padding: 5px 10px;
 }
 
 /*Suggestion*/
@@ -180,7 +180,8 @@ body {
 .welcome__image {
   display: block;
   margin: 0 auto;
-  max-width: 100%;
+  max-width: 1200px;
+  width: 100%;
   height: auto;
   border-radius: 10px;
 }
@@ -336,7 +337,8 @@ body {
 
 .nearby__image-card {
   position: relative;
-  width: 280px;
+  max-width: 280px;
+  width: 100%;
   cursor: pointer;
 }
 
@@ -412,21 +414,21 @@ body {
 
 /* Inspiration to get you going */
 .inspiration-container {
-  width: 100%;
-  max-width: 1600px;
-  margin: 20px auto;
   background-color: #f7f7f7;
+  margin: auto;
   padding: 20px;
   color: #002b11;
 }
 
 .inspiration__title {
-  width: 75%;
+  width: 70%;
   margin: auto;
   padding: 20px;
 }
 
 .inspiration__image-container {
+  width:1200px;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -436,7 +438,9 @@ body {
 
 .inspiration__image-card {
   position: relative;
-  width: 350px;
+  max-width:350px;
+  width: 100%;
+  text-align: center;
   cursor: pointer;
 }
 
@@ -459,10 +463,6 @@ body {
 
 .inspiration__image-heart:hover {
   background-color: #dcdcdc;
-}
-
-.inspiration__image-card {
-  text-align: center;
 }
 
 .inspiration__image-card p {
@@ -499,7 +499,8 @@ body {
 
 .thingstodo__image-card {
   position: relative;
-  width: 280px;
+  max-width: 280px;
+  width: 100%;
   cursor: pointer;
 }
 
@@ -562,7 +563,8 @@ body {
 
 .iconicplaces__image-card {
   position: relative;
-  width: 280px;
+  max-width: 280px;
+  width: 100%;
   height: 300px;
   cursor: pointer;
 }
@@ -630,7 +632,105 @@ body {
   cursor: pointer;
   background-color: hsla(144, 100%, 8%, 0.9);
 }
-/* @media (max-width: 600px) {
+
+/* Travellers' Choice */
+.travellerschoice-container{
+  background-color: #002B11;
+  padding: 10px;
+}
+
+.travellerschoice__container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+.travellerschoice__title{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  flex-wrap: wrap;
+  align-items: start;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  width: 40%;
+}
+
+.travellerschoice__image{
+  max-width: 500px;
+}
+
+.travellerschoice__image img{
+  max-width: 500px;
+  width: 100%;
+}
+
+.travellerschoice__title button{
+  font-family: poppins,sans-serif;
+  font-size: 1rem;
+  padding:  20px;
+  background-color: white;
+  color: #002b11;
+  border-radius: 30px;
+  border: none;
+
+}
+
+/* Browse themed collections */
+.browsetheme-container {
+  padding: 20px;
+}
+
+.browsetheme__title {
+  color: #002b11;
+  width: 80%;
+  margin: auto;
+}
+
+.browsetheme__title h3 {
+  font-weight: bolder;
+}
+
+.browsetheme__images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.browsetheme__image-card {
+  position: relative;
+  width: 280px;
+  height: 400px;
+  cursor: pointer;
+}
+
+.browsetheme__image-card img {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.browsetheme__image-card img:hover{
+  opacity: 80%;
+}
+
+.browsetheme__image-text {
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  color: white;
+  font-family: poppins, sans-serif;
+  font-weight: bold;
+}
+
+ @media (max-width: 600px) {
   .welcome__title {
       font-size: 0.9rem;
       left: 5%;
@@ -641,4 +741,4 @@ body {
   .welcome__button {
       display: none;
   }
-}  */
+}
