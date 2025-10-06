@@ -267,8 +267,8 @@ header{
 
 .bestspots__image-text {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 5%;
+  left: 5%;
   width: 100%;
   color: white;
   font-family: poppins, sans-serif;
@@ -288,10 +288,16 @@ header{
   flex-wrap: wrap;
 }
 
+.visitingcard__title{
+  max-width: 250px;
+  width: 100%;
+  margin: 2%;
+}
+
 .visitingcard__title img {
-  width: 200px;
+  max-width: 200px;
+  width: 100%;
   height: 200px;
-  padding: 20px;
   transform: rotate(-5deg);
   border-radius: 40px;
   cursor: pointer;
@@ -335,6 +341,7 @@ header{
   flex-direction: column;
   gap: 10px;
   margin: 10px;
+  padding-left: 5%;
 }
 
 .nearby__title h3 {
@@ -396,10 +403,16 @@ header{
   flex-wrap: wrap;
 }
 
+.solodinner__title{
+  max-width: 200px;
+  width: 100%;
+  margin: 2%;
+}
+
 .solodinner__title img {
-  width: 200px;
+  max-width: 200px;
+  width: 100%;
   height: 200px;
-  padding: 20px;
   transform: rotate(-5deg);
   border-radius: 40px;
   cursor: pointer;
@@ -440,9 +453,9 @@ header{
 }
 
 .inspiration__title {
-  width: 70%;
+  width: 90%;
   margin: auto;
-  padding: 20px;
+  padding: 5%;
 }
 
 .inspiration__image-container {
@@ -494,8 +507,7 @@ header{
 
 /* Things to do—right now */
 .thingstodo-container {
-
-  height: auto;
+ height: auto;
 }
 
 .thingstodo__title {
@@ -503,12 +515,16 @@ header{
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding-left: 10%;
   margin: 10px;
 }
 
 .thingstodo__title h3 {
   font-weight: bolder;
+  padding: 0px 20px;
+}
+
+.thingstodo__title p{
+  padding: 0px 20px;
 }
 
 .thingstodo__images {
@@ -570,7 +586,6 @@ header{
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding-left: 9%;
 }
 
 .iconicplaces__title h3 {
@@ -608,8 +623,8 @@ header{
 
 .iconicplaces__image-text {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 3%;
+  left: 3%;
   width: 100%;
   color: white;
   font-size: 1.2rem;
@@ -691,6 +706,7 @@ header{
   font-size: 1.2rem;
   font-weight: bolder;
   gap: 20px;
+  margin: 10px;
 }
 
 .travellerschoice__image{
@@ -754,8 +770,8 @@ header{
 
 .browsetheme__image-text {
   position: absolute;
-  bottom: 20%;
-  left: 0;
+  bottom: 23%;
+  left: 3%;
   width: 100%;
   color: white;
   font-family: poppins, sans-serif;
