@@ -38,7 +38,7 @@ Check it out here 👉 [TripAdvisor Clone Live](https://jacksparrow7-coder.githu
 ---
 
 ## 🧑‍💻 Author  
-**Sugi** – Aspiring MERN Developer 🌐  
+**Manikandan** – Aspiring MERN Developer 🌐  
 > “Building one pixel-perfect project at a time.”  
 
 ---
