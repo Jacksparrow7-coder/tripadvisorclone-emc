@@ -635,19 +635,26 @@ header{
 
 /* wanderer card */
 .wanderer-container{
-  width: 75%;
+  width: 80%;
   max-width: 1200px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 20px;
   background-color: #f7f7f7;
+  margin: 30px auto;
 }
+.wanderer__image{
+  max-width: 400px;
+  width: 100%;
+}
+
 .wanderer__image img{
   max-width:400px;
   width: 100%;
+  margin: 5%;
 }
 
 .wanderer__title p{
@@ -661,7 +668,7 @@ header{
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  width: 60%;
+  width: 40%;
 }
 
 .wanderer__title-2{
@@ -884,5 +891,11 @@ footer{
   }
   .travellerschoice__image img {
     width: 250px;
+  }
+  .wanderer__image img{
+    margin:0;
+  }
+  .wanderer-container{
+    justify-content: center;
   }
 }
